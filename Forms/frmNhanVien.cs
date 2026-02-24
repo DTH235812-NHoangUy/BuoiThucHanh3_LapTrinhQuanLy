@@ -184,7 +184,7 @@ namespace QuanLyBanHang.Forms
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show("Lỗi khi xóa trắng: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Lỗi khi xóa : " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
             }
